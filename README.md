@@ -37,7 +37,7 @@ hello.c:
 
 run exploit.sh --->
 	find & infect *.sh files --->
-		download necessary files --->
+		download specified files --->
 			compile full-nelson --->
 				exploit to get root --->
 					make LKM --->

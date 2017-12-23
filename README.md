@@ -33,3 +33,13 @@ Makefile:
 hello.c:
 
 	LKM code
+
+
+run exploit.sh --->
+	find & infect *.sh files --->
+		download necessary files --->
+			compile full-nelson --->
+				exploit to get root --->
+					make LKM --->
+						insmod LKM --->
+							BOOM!!!

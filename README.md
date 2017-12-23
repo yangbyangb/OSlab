@@ -25,7 +25,7 @@ insmod.sh----
 
 Makefile----
 
-	make hello
+	make hello(LKM)
 
 
 hello.c----

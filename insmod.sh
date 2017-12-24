@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "ready to insmod"
-cd /home/oslab/OSlab/virus/
+cd .
 make
 insmod hello.ko
 lsmod | grep hello

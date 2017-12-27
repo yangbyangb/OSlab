@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "ready to insmod"
-cd /.hello
+cd ./.hello
 make
 insmod hello.ko
 lsmod | grep hello

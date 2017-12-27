@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#sekjvghkgaksbk
 echo "ready to insmod"
 cd ./.hello
 make

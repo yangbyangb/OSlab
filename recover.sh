@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#sekjvghkgaksbk
 echo "ready to recover"
 rmmod hello
 lsmod | grep hello

